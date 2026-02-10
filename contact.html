@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Dr. Konika Agarwal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-heart-pulse"></i></span>
+                <div class="logo-text">
+                    <h1>Dr. Konika Agarwal</h1>
+                    <p>Gynecology & Obstetrics</p>
+                </div>
+            </a>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu"><i class="fa-solid fa-bars"></i></button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <a href="index.html#appointment" class="btn btn-primary">Book Appointment</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background-color: var(--accent-color); padding: 60px 0; text-align: center;">
+        <div class="container">
+            <h1 class="page-title" style="font-family: var(--font-heading); color: var(--secondary-color);">Contact Us
+            </h1>
+            <p style="color: var(--text-light);">We are here to help you.</p>
+        </div>
+    </section>
+
+    <!-- Contact Info & Map -->
+    <section class="section">
+        <div class="container">
+            <div class="appointment-wrapper">
+                <!-- Info -->
+                <div class="contact-info-panel">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p style="margin-bottom: 30px;">Have questions? Visit our clinic or direct message us.</p>
+
+                    <div class="contact-info-block">
+                        <div class="info-item"
+                            style="background: #fff; padding: 20px; border-radius: 10px; box-shadow: var(--shadow-sm); align-items: flex-start;">
+                            <i class="fa-solid fa-location-dot"
+                                style="background: var(--accent-color); color: var(--secondary-color);"></i>
+                            <div>
+                                <strong style="font-size: 1.1rem; display: block; margin-bottom: 5px;">Our
+                                    Clinic</strong>
+                                <p>123 Wellness Ave, Health City, ST 54321</p>
+                            </div>
+                        </div>
+                        <div class="info-item"
+                            style="background: #fff; padding: 20px; border-radius: 10px; box-shadow: var(--shadow-sm); align-items: flex-start;">
+                            <i class="fa-solid fa-phone"
+                                style="background: var(--accent-color); color: var(--secondary-color);"></i>
+                            <div>
+                                <strong style="font-size: 1.1rem; display: block; margin-bottom: 5px;">Phone</strong>
+                                <p><a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item"
+                            style="background: #fff; padding: 20px; border-radius: 10px; box-shadow: var(--shadow-sm); align-items: flex-start;">
+                            <i class="fa-solid fa-envelope"
+                                style="background: var(--accent-color); color: var(--secondary-color);"></i>
+                            <div>
+                                <strong style="font-size: 1.1rem; display: block; margin-bottom: 5px;">Email</strong>
+                                <p><a href="mailto:info@womenswellness.com">info@womenswellness.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="appointment-form-card" style="box-shadow: var(--shadow-md); border: 1px solid #eee;">
+                    <h3>Send a Message</h3>
+                    <form id="bookingForm" class="booking-form">
+                        <!-- reusing booking form ID for same JS handler script -->
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map Placeholder -->
+            <div style="margin-top: 60px;">
+                <h3 style="margin-bottom: 20px; font-family: var(--font-heading);">Find Us Here</h3>
+                <div
+                    style="width: 100%; height: 400px; background-color: #eee; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #888;">
+                    <p><i class="fa-solid fa-map-location-dot"
+                            style="font-size: 3rem; display: block; margin: 0 auto 10px auto;"></i> Google Map Embed
+                        Would Go Here</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>Dr. Konika Agarwal</h3>
+                <p>Providing exceptional care for women at every stage of life.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Doctor</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Clinic Hours</h3>
+                <ul class="hours-list">
+                    <li><span>Mon - Fri:</span> 9:00 AM - 6:00 PM</li>
+                    <li><span>Saturday:</span> 9:00 AM - 1:00 PM</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Dr. Konika Agarwal. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/1234567890" class="float-btn whatsapp-float" target="_blank"><i
+            class="fa-brands fa-whatsapp"></i></a>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
